@@ -1,0 +1,81 @@
+/* .FooterContainer{
+    background-color: black;
+    color: white;
+    padding: 10px; 
+    margin-top: 50px;
+    text-align: left;
+    height: 100px ;
+}
+
+.FooterContainer h4{
+    color: white;
+}
+
+.FooterContainer .FooterRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.list{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+} */
+
+.FooterContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    margin-top: 50px;
+}
+
+.FooterRow {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.FooterRow h5 {
+    color: white;
+    margin-bottom: 10px;
+    size: 16px;
+}
+
+.FooterRow p{
+    size: 14px;
+}
+
+.list {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.FooterRow .FooterText{
+    display: flex;
+    flex: 1;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* gap: 3px; */
+    margin-top: 10px;
+    flex-direction: column;
+    color: #999999;
+    align-items: flex-start; /* Align items to the start (left) */
+    padding-right: 50px;
+}
+
+.FooterRow1 {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}

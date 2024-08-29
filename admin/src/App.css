@@ -1,0 +1,5 @@
+/* Main content styles */
+.main-content {
+  margin-left: 0px; /* Same width as the sidebar */
+  padding: 1rem; /* Padding for the content */
+}

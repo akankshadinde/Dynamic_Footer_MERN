@@ -1,0 +1,12 @@
+.page-content {
+    display: flex;
+    justify-content: center; 
+    right: 50px;
+    padding: 20px; /* Add some padding if needed */
+  }
+  
+  .page-content h1 {
+    margin-top: -240px; /* Adjust margin as needed */
+    padding-left: -90px;
+  }
+  
